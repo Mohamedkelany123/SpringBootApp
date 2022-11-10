@@ -66,10 +66,47 @@ public class StationController {
     public ResponseEntity<Station> createStation(@RequestBody Station station) {
         try {
             Station _station = stationRepository
-                    .save(new Station(station.getName(), station.getLongitude(),station.getLatitude()));
+                    .save(new Station(station.getName(), station.getLongitude(), station.getLatitude()));
             return new ResponseEntity<>(_station, HttpStatus.CREATED);
         } catch (Exception e) {
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
         }
+    }
+
+    @PutMapping("/stations/{id}")
+    public ResponseEntity<Station> updateStation(@PathVariable("id") long id, @RequestBody Station station) {
+        Optional<Station> stationData = stationRepository.findById(id);
+
+        if (stationData.isPresent()) {
+            Station _station = stationData.get();
+            _station.setName(station.getName());
+            _station.setLongitude(station.getLongitude());
+            _station.setLatitude(station.getLatitude());
+
+            return new ResponseEntity<>(stationRepository.save(_station), HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    @DeleteMapping("/stations/{id}")
+    public ResponseEntity<HttpStatus> deleteStationById(@PathVariable("id") long id) {
+        try {
+            stationRepository.deleteById(id);
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        } catch (Exception e) {
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+    @DeleteMapping("/stations")
+    public ResponseEntity<HttpStatus> deleteAllStations() {
+        try {
+            stationRepository.deleteAll();
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        } catch (Exception e) {
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+
     }
 }

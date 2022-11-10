@@ -75,9 +75,43 @@ public class TripController {
         }
     }
 
+    @PutMapping("/trips/{id}")
+    public ResponseEntity<Trip> updateTrip(@PathVariable("id") long id, @RequestBody Trip trip) {
+        Optional<Trip> tripData = tripRepository.findById(id);
 
+        if (tripData.isPresent()) {
+            Trip _trip = tripData.get();
+            _trip.setStartTime(trip.getStartTime());
+            _trip.setEndTime(trip.getEndTime());
+            _trip.setFromStation(trip.getFromStation());
+            _trip.setToStation(trip.getToStation());
 
+            return new ResponseEntity<>(tripRepository.save(_trip), HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
 
+    @DeleteMapping("/trips/{id}")
+    public ResponseEntity<HttpStatus> deleteTripById(@PathVariable("id") long id) {
+        try {
+            tripRepository.deleteById(id);
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        } catch (Exception e) {
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+    @DeleteMapping("/trips")
+    public ResponseEntity<HttpStatus> deleteAllTrips() {
+        try {
+            tripRepository.deleteAll();
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        } catch (Exception e) {
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+
+    }
 
 
 
