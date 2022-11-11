@@ -1,14 +1,32 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { TutorialsListComponent } from './components/tutorials-list/tutorials-list.component';
-import { TutorialDetailsComponent } from './components/tutorial-details/tutorial-details.component';
-import { AddTutorialComponent } from './components/add-tutorial/add-tutorial.component';
+import { SigninComponent } from './components/signin/signin.component';
+import { SignupComponent } from './components/signup/signup.component';
+import { HomeComponent } from './components/home/home.component';
+import { TripsComponent } from './components/trips/trips.component';
+import { StationsComponent } from './components/stations/stations.component';
+import { CrudCardComponent } from './components/shared/crud-card/crud-card.component';
+import { CreateTripComponent } from './components/create-trip/create-trip.component';
+import { UpdateTripComponent } from './components/update-trip/update-trip.component';
+import { DeleteTripComponent } from './components/delete-trip/delete-trip.component';
+import { CreateStationComponent } from './components/create-station/create-station.component';
+import { UpdateStationComponent } from './components/update-station/update-station.component';
+import { DeleteStationComponent } from './components/delete-station/delete-station.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'tutorials', pathMatch: 'full' },
-  { path: 'tutorials', component: TutorialsListComponent },
-  { path: 'tutorials/:id', component: TutorialDetailsComponent },
-  { path: 'add', component: AddTutorialComponent }
+  { path: 'signup', component: SignupComponent },
+  { path: 'signin', component: SigninComponent },
+  { path: 'app-home', component: HomeComponent },
+  { path: 'app-stations', component: StationsComponent },
+  { path: 'app-trips', component: TripsComponent },
+  { path: 'app-crud-card', component: CrudCardComponent },
+  { path: 'app-create-trip', component: CreateTripComponent },
+  { path: 'app-update-trip', component: UpdateTripComponent },
+  { path: 'app-delete-trip', component: DeleteTripComponent },
+  { path: 'app-create-station', component: CreateStationComponent },
+  { path: 'app-update-station', component: UpdateStationComponent },
+  { path: 'app-delete-station', component: DeleteStationComponent },
+  
 ];
 
 @NgModule({

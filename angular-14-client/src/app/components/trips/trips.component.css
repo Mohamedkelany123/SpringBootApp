@@ -1,0 +1,11 @@
+td {
+    color: black;
+}
+
+.card {
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    margin-top: 2rem;
+    overflow: scroll;
+}

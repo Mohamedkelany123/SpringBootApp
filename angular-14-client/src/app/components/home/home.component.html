@@ -1,0 +1,89 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<section class="home">
+    <div class="card border-secondary mb-3 trip-crud" style="max-width: 18rem;">
+        <div class="card-header">
+            Trips Crud
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Select an Operation</h5>
+            <div class="table-responsive">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td class="crud"><button class='btn btn-success' (click)='createTrip()'>
+                                Create Trip
+                                    <i class="fas fa-solid fa-plus"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="crud"><button class='btn btn-primary' (click)='viewTrips()'>
+                                View Trips
+                                    <i class="fas fa-solid fa-car"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="crud"><button class='btn btn-warning' (click)='updateTrip()'>
+                                Update Trip
+                                    <i class="fas fa-solid fa-edit"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="crud"><button class='btn btn-danger' (click)='deleteTrip()'>
+                                Delete Trip
+                                    <i class="fas delete fa-solid fa-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card border-secondary mb-3 station-crud" style="max-width: 18rem;">
+        <div class="card-header">
+            Stations Crud
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Select an Operation</h5>
+            <div class="table-responsive">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td class="crud"><button class='btn btn-success' (click)='createStation()'>
+                                Create Station
+                                    <i class="fas fa-solid fa-plus"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="crud"><button class='btn btn-primary' (click)='viewStations()'>
+                                View Stations
+                                    <i class="fas fa-solid fa-map-pin"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="crud"><button class='btn btn-warning' (click)='updateStation()'>
+                                Update Station
+                                    <i class="fas fa-solid fa-edit"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="crud"><button class='btn btn-danger' (click)='deleteStation()'>
+                                Delete Station
+                                    <i class="fas delete fa-solid fa-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>

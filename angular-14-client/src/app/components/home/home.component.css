@@ -1,0 +1,39 @@
+td {
+    text-align: center;
+    color: white;
+}
+
+.fas {
+    color: white;
+}
+
+i {
+    padding-left: 1rem;
+}
+
+.btn {
+    color: white;
+    width: 12rem;
+}
+
+.home {
+    display: grid;
+    grid-template-areas: "T S";
+    place-items: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.trip-crud {
+    grid-area: T;
+    width: 100%;
+}
+
+.station-crud {
+    grid-area: S;
+    width: 100%;
+}
+
+.card-title {
+    font-size: 0.9rem;
+}
