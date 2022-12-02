@@ -9,7 +9,7 @@ import { IStation } from '../models/station';
 @Injectable()
 export class StationService {
 
-  private stationsUrl = 'http://host.docker.internal:8081/api/stations';
+  private stationsUrl = 'http://host.docker.internal:8080/api/stations';
   constructor(private http: HttpClient) { }
 
   createStation(stationData: any): Observable<any> {

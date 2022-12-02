@@ -3,7 +3,10 @@ package com.bezkoder.spring.datajpa.controller;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+
+import com.bezkoder.spring.datajpa.model.Station;
 import com.bezkoder.spring.datajpa.model.Trip;
+import com.bezkoder.spring.datajpa.repository.StationRepository;
 import com.bezkoder.spring.datajpa.repository.TripRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,6 +21,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.bezkoder.spring.datajpa.model.Tutorial;
+import com.bezkoder.spring.datajpa.repository.TutorialRepository;
 
 @CrossOrigin(origins = "http://host.docker.internal:4200")
 @RestController
