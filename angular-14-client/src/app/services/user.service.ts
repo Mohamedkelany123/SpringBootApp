@@ -9,8 +9,8 @@ import { IUser } from '../models/user';
 @Injectable()
 export class UserService {
 
-  private signinUrl = 'http://localhost:8080/api/user/signIn';
-  private signupUrl = 'http://localhost:8080/api/user';
+  private signinUrl = 'http://host.docker.internal:8081/api/user/signIn';
+  private signupUrl = 'http://host.docker.internal:8081/api/user';
   constructor(private http: HttpClient) { }
 
   signUp(userData: any): Observable<any> {

@@ -8,7 +8,7 @@ import { ITrip } from '../models/trip';
 })
 export class TripService {
 
-    private tripsUrl = 'http://localhost:8080/api/trips';
+    private tripsUrl = 'http://host.docker.internal:8081/api/trips';
     constructor(private http: HttpClient) { }
 
     createTrip(tripData: any): Observable<any> {

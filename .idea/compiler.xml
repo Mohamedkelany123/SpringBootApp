@@ -7,11 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-data-jpa" />
-        <module name="spring-boot-angular-14-mysql-example-master" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-boot-angular-14-mysql-example-master" target="1.5" />
       <module name="spring-boot-data-jpa" target="1.8" />
     </bytecodeTargetLevel>
   </component>
