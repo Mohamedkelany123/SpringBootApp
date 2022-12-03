@@ -4,34 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f679b5a0-2b17-4a85-a4e5-835059ce3a9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SpringBootApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spring-boot-angular-14-mysql-example-master.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6fa87435-b91a-4246-b2c3-fa4b909c7658" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-14-client/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-14-client/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-14-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-14-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-14-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-14-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-14-client/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-14-client/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-14-client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-14-client/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-14-client/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-14-client/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-14-client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-14-client/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-14-client/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-14-client/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-14-client/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-14-client/src/environments/environment.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-14-client/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-14-client/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-angular-14-mysql-example-crud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/SpringBootDataJpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/SpringBootDataJpaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-14-client/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-14-client/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-14-client/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-14-client/src/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/controller/StationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/controller/StationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/controller/TripController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/controller/TripController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/controller/TutorialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/controller/TutorialController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/model/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/model/Station.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/repository/StationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/repository/StationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/repository/TripRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/repository/TripRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server/src/main/java/com/bezkoder/spring/datajpa/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,58 +29,103 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
     </option>
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/angular-14-client" />
   </component>
-  <component name="ProjectId" id="2IOoTKcNbAjbYWqYUQag2x9jIWv" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2HP3Z9ow44TennvTHDcBfOXeuxM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Amr/Desktop/SpringBootApp"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="D:\Mado\University\Year 4 - Sem 1\Selected Labs\Project\angular-14-client\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBootDataJpaApplication">
+    <configuration name="Angular Application (angular-14-client)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spring-boot-data-jpa" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spring-boot-data-jpa" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootDataJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-data-jpa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bezkoder.spring.datajpa.SpringBootDataJpaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server (angular-14-client)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/angular-14-client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f679b5a0-2b17-4a85-a4e5-835059ce3a9c" name="Changes" comment="" />
-      <created>1670061996482</created>
+      <changelist id="6fa87435-b91a-4246-b2c3-fa4b909c7658" name="Default Changelist" comment="" />
+      <created>1668172950658</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1670061996482</updated>
+      <updated>1668172950658</updated>
+      <workItem from="1668172955250" duration="4568000" />
+      <workItem from="1668265779192" duration="23000" />
+      <workItem from="1668337318595" duration="1319000" />
+      <workItem from="1669911086059" duration="2722000" />
+      <workItem from="1669914806143" duration="16221000" />
+      <workItem from="1669982546621" duration="26507000" />
+      <workItem from="1670095558766" duration="3350000" />
+      <workItem from="1670099848069" duration="1710000" />
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

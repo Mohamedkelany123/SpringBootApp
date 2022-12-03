@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SpringBootApp.iml" filepath="$PROJECT_DIR$/.idea/SpringBootApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-angular-14-mysql-example-master.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-angular-14-mysql-example-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-server/spring-boot-data-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-server/spring-boot-data-jpa.iml" />
     </modules>
   </component>
