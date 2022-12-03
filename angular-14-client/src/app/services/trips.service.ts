@@ -2,13 +2,14 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, catchError, tap, throwError } from 'rxjs';
 import { ITrip } from '../models/trip';
+import {environment} from "../../environments/environment";
 
 @Injectable({
     providedIn: 'root'
 })
 export class TripService {
 
-    private tripsUrl = 'http://host.docker.internal:8080/api/trips';
+    private tripsUrl = 'http://localhost:'+environment.apiUrl+'/api/trips';
     constructor(private http: HttpClient) { }
 
     createTrip(tripData: any): Observable<any> {

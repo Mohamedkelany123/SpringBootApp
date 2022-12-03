@@ -2,15 +2,18 @@ import { HttpClient, HttpErrorResponse} from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, tap, catchError, throwError } from 'rxjs';
 import { IUser } from '../models/user';
+import {environment} from "../../environments/environment";
 
 @Injectable({
   providedIn: 'root'
 })
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class UserService {
 
-  private signinUrl = 'http://host.docker.internal:8080/api/user/signIn';
-  private signupUrl = 'http://host.docker.internal:8080/api/user';
+  private signinUrl = 'http://localhost:'+environment.apiUrl+'/api/user/signIn';
+  private signupUrl = 'http://localhost:'+environment.apiUrl+'/api/user';
   constructor(private http: HttpClient) { }
 
   signUp(userData: any): Observable<any> {

@@ -2,14 +2,17 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, tap, catchError, throwError } from 'rxjs';
 import { IStation } from '../models/station';
+import {environment} from "../../environments/environment";
 
 @Injectable({
   providedIn: 'root'
 })
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class StationService {
 
-  private stationsUrl = 'http://host.docker.internal:8080/api/stations';
+  private stationsUrl = 'http://localhost:'+environment.apiUrl+'/api/stations';
   constructor(private http: HttpClient) { }
 
   createStation(stationData: any): Observable<any> {
